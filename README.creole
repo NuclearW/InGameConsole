@@ -1,0 +1,18 @@
+== InGameConsole
+
+InGameConsole allows you to view the output of console in-game
+
+=== Commands
+
+* /igc (on|off)
+
+=== Permissions
+
+* ingameconsole.use
+** //Allows you use the igc command//
+
+All permissions default to **op**
+
+=== Compiling
+
+Maven 3 is required to compile InGameConsole

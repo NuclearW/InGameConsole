@@ -1,0 +1,18 @@
+name: InGameConsole
+main: com.nuclearw.ingameconsole.InGameConsole
+version: ${project.version}
+author: NuclearW
+description: InGameConsole allows you to view the output of console in-game
+commands:
+    igc:
+        description: Enable, disable, or toggle in-game viewing of console
+        usage: |
+            /<command> (on|off)
+permissions:
+    ingameconsole.*:
+        description: Gives access to all InGameConsole commands
+        children:
+            ingameconsole.use: true
+    ingameconsole.use:
+        description: Allows you use the igc command
+        default: op
